@@ -11,7 +11,7 @@
         const searchParams = url.searchParams;
         const urlsParam = searchParams.get('urls');
         if (urlsParam) {
-            const urls = urlsParam.split(' ');
+            const urls = urlsParam.split(';');
             console.log('urls', urls);
             if (urls.length > 0) {
                 const index = Math.floor(Math.random() * urls.length);
