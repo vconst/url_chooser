@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Url Chooser</title>
+    <script>
+        const url = new URL(localtio.href);
+        const searchParams = url.searchParams;
+        const urls = searchParams.get('urls');
+        console.log('urls', urls.split(' '));
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
